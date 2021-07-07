@@ -3,10 +3,15 @@ import MeetupDetail from '../Components/MeetupComponents/MeetupDetail'
 import {MongoClient, ObjectId} from "mongodb"
 
 function meetupId({meetups}) {
-    console.log(meetups)
-    return (
-           <MeetupDetail imgl={meetups.imaglink+meetups._id} title={meetups.title} subtitle={meetups.description} address={meetups.address}/>
-    )
+    if(meetups){
+        return (
+            <MeetupDetail imgl={meetups.imaglink+meetups._id} title={meetups.title} subtitle={meetups.description} address={meetups.address}/>
+     )
+    }
+    else{
+        return(<h3>Loading</h3>)
+    }
+   
 }
 
 export default meetupId
