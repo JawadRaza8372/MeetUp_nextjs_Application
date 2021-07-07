@@ -10,6 +10,7 @@ let New_meetup=()=>{
             ,body:JSON.stringify(data)
             ,headers:{
                 'Content-Type':'application/json'
+                
             }
         })
       
