@@ -1,5 +1,4 @@
 import React from 'react'
-import { useRouter } from 'next/router'
 import MeetupDetail from '../Components/MeetupComponents/MeetupDetail'
 import {MongoClient, ObjectId} from "mongodb"
 

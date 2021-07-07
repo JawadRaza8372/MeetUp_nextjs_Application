@@ -9,7 +9,7 @@ function ReactNavbar() {
   <Navbar.Collapse id="navbarScroll">
     <Nav style={{marginLeft:"auto",marginRight:"20px"}}>
     <Link href="/"><span className="navbtn">All MeetUps</span></Link>
-    <Link href="/new_meetup"><span className="navbtn">New Meetup</span></Link>
+    <Link href="/New_meetup"><span className="navbtn">New Meetup</span></Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

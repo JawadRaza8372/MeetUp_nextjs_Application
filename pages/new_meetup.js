@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router'
-import React from 'react'
 import MeetupForm from '../Components/NewMeetup/MeetupForm'
-function new_meetup() {
+let New_meetup=()=>{
     let Router=useRouter();
 
     let submitfunction=async(data)=>{
@@ -25,4 +24,4 @@ function new_meetup() {
     )
 }
 
-export default new_meetup
+export default New_meetup
