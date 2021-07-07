@@ -14,7 +14,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MeetupItem({index,id,imagelink,heading,subheading}) {
+export default function MeetupItem({index,id,imagelink,heading}) {
   const classes = useStyles();
   let router=useRouter()
 let navfunction=()=>{
@@ -32,9 +32,6 @@ router.push('/'+id)
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             {heading}
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            {subheading}
           </Typography>
         </CardContent>
 <CardContent>
