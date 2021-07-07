@@ -10,7 +10,7 @@ const useStyles = makeStyles({
     width: '100%',
   },
   media: {
-    height: 540,
+    height: 500,
   },
 });
 
