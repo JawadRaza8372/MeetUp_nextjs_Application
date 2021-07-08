@@ -1,4 +1,4 @@
-#My Meet up Application
+# My Meet up Application
 
 A Next js application with mongodb.
 
